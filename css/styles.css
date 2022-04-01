@@ -115,7 +115,6 @@
 }
 
 .title {
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -125,8 +124,6 @@
 }
 
 .text {
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -144,7 +141,6 @@
 /* ------діяльність компанії------ */
 
 .work {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -160,7 +156,6 @@
 }
 
 .galery {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -183,7 +178,6 @@
 }
 
 .tagline {
-  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
@@ -199,7 +193,6 @@
 
 .footer-logo {
   font-family: Raleway;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -208,8 +201,6 @@
 }
 
 .footer-address {
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -217,8 +208,6 @@
 }
 
 .footer-contact {
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -267,7 +256,6 @@
   background-color: var (--primary-bg-color);
 }
 .headline-portfolio {
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -276,8 +264,6 @@
 }
 
 .tagline-portfolio {
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
