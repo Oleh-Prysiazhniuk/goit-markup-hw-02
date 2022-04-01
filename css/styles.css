@@ -5,15 +5,291 @@
   --accent-color: #2196f3;
   --primary-bg-color: #ffffff;
   --secondary-bg-color: #f5f4fa;
-  --top-line-bg-color: #ececec;
+  --top-line-bg-color: #e5e5e5;
   --footer-bg-color: #2f303a;
 }
 
 .page {
   font-family: Roboto, sans-serif;
   color: var(--primary-text-color);
+  background-color: var(--top-line-bg-color);
 }
 
 .list {
   list-style: none;
 }
+
+/* ------Стилі для index.html------ */
+
+/* ------хедер------ */
+.page-header {
+  background-color: var(--primary-bg-color);
+}
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.logos {
+  color: var(--accent-color);
+}
+
+.link .site-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.current {
+  color: var(--accent-color);
+}
+
+.contacts .contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondory-text-color);
+}
+.contacts .contact:hover,
+.contacts .contact:focus {
+  color: var(--accent-color);
+}
+
+/* ------секція герой------ */
+
+.hero {
+  background-color: var(--footer-bg-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-title-color);
+}
+
+.button {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--text-title-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+  border-radius: 4px;
+  border-width: 0;
+}
+
+/* ------фішки компанії------ */
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-text-color);
+}
+
+.text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondory-text-color);
+}
+
+.feature-list .title {
+  color: var(--primary-text-color);
+}
+
+.feature-list .text {
+  color: var(--secondory-text-color);
+}
+
+/* ------діяльність компанії------ */
+
+.work {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+/* ------члени компанії------ */
+
+.user {
+  background-color: var(--secondary-bg-color);
+}
+
+.galery {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.galery-item {
+  background-color: var(--primary-bg-color);
+}
+
+.headline {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.tagline {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondory-text-color);
+}
+
+/* ------футер------ */
+
+.footer-menu {
+  background-color: var(--footer-bg-color);
+}
+
+.footer-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--text-title-color);
+}
+
+.footer-address {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-title-color);
+}
+
+.footer-contact {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.address-list .footer-address:focus,
+.address-list .footer-address:hover {
+  color: var(--accent-color);
+}
+
+.footer-contact:focus,
+.footer-contact:hover {
+  color: var(--accent-color);
+}
+
+/* ------CSS для portfolio.html------ */
+/* ------хедер підтягує стилі з CSS index.html ------ */
+/* ------кнопки------ */
+.button-primery {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  cursor: pointer;
+  border-radius: 4px;
+  border-width: 0;
+}
+
+.button-primery {
+  background-color: var(--secondary-bg-color);
+}
+
+.button-primery:hover,
+.button-primery:focus {
+  color: var(--text-title-color);
+  background-color: var(--accent-color);
+}
+
+/* ------Наши проекты------ */
+
+.project-item {
+  background-color: var (--primary-bg-color);
+}
+.headline-portfolio {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+
+.tagline-portfolio {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--secondory-text-color);
+}
+
+/* ------футер підтягує стилі з CSS index.html------ */
