@@ -5,14 +5,12 @@
   --accent-color: #2196f3;
   --primary-bg-color: #ffffff;
   --secondary-bg-color: #f5f4fa;
-  --top-line-bg-color: #e5e5e5;
   --footer-bg-color: #2f303a;
 }
 
 .page {
   font-family: Roboto, sans-serif;
   color: var(--primary-text-color);
-  background-color: var(--top-line-bg-color);
 }
 
 .list {
@@ -38,7 +36,7 @@
   color: var(--accent-color);
 }
 
-.link .site-nav {
+.link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.4;
@@ -46,8 +44,8 @@
   color: var(--primary-text-color);
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.link:hover,
+.link:focus {
   color: var(--accent-color);
 }
 
@@ -55,15 +53,15 @@
   color: var(--accent-color);
 }
 
-.contacts .contact {
+.contact {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondory-text-color);
 }
-.contacts .contact:hover,
-.contacts .contact:focus {
+.contact:hover,
+.contact:focus {
   color: var(--accent-color);
 }
 
@@ -85,7 +83,7 @@
 
 .button {
   font-family: Roboto;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   display: flex;
@@ -130,11 +128,11 @@
   color: var(--secondory-text-color);
 }
 
-.feature-list .title {
+.title {
   color: var(--primary-text-color);
 }
 
-.feature-list .text {
+.text {
   color: var(--secondory-text-color);
 }
 
@@ -171,7 +169,7 @@
 .headline {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
@@ -179,7 +177,7 @@
 
 .tagline {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondory-text-color);
@@ -201,6 +199,8 @@
 }
 
 .footer-address {
+  font-family: Roboto;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -208,13 +208,15 @@
 }
 
 .footer-contact {
+  font-family: Roboto;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.address-list .footer-address:focus,
-.address-list .footer-address:hover {
+.footer-address:focus,
+.footer-address:hover {
   color: var(--accent-color);
 }
 
@@ -228,7 +230,6 @@
 /* ------кнопки------ */
 .button-primery {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
